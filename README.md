@@ -26,9 +26,9 @@ Note that the trigger pulse is reverse to a normal PWM pulse, starting low (dict
 
 ### Software setup
 
-install pigpio-encoder
+install the pigpio hardware pwm and pigpio-encoder libraries
 
-```pip3 install pigpio-encoder```
+```pip3 install pigpio pigpio-encoder ```
 
 clone example script
 
