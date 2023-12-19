@@ -41,7 +41,7 @@ go to the test script folder
 
 run the code
 
-```sudo python3 main.py```
+```sudo python3 pwm_test.py```
 
 open a new terminal window and run the libcamera app:
 
