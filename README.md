@@ -5,7 +5,12 @@ Simple example of changing fps and/or shutter speed with libcamera and the Raspb
 
 From the Raspberry Pi camera documentation (https://www.raspberrypi.com/documentation/accessories/camera.html#synchronous-captures):
 
+---
 *Both the HQ Camera and the Global Shutter Camera, have support for synchronous captures. Making use of the XVS pin (Vertical Sync) allows one camera to pulse when a frame capture is initiated. The other camera can then listen for this sync pulse, and capture a frame at the same time as the other camera.*
+
+---
+
+### Basic idea
 
 By simulating this trigger pulse using the built in Raspberry Pi PWM signal we can achieve control of both camera frame rate and shutter angle.
 
