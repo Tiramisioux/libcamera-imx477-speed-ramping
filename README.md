@@ -10,8 +10,6 @@ From the Raspberry Pi camera documentation (https://www.raspberrypi.com/document
 
 ---
 
-### Basic idea
-
 By simulating this trigger pulse using the built in Raspberry Pi PWM signal we can achieve control of both camera frame rate and shutter angle.
 
 <img width="739" alt="Skärmavbild 2023-12-18 kl  19 23 46" src="https://github.com/Tiramisioux/libcamera-imx477-speed-ramping/assets/74836180/ff55513a-7279-47ca-aa9e-657fbac99608">
