@@ -18,7 +18,7 @@ Note that the trigger pulse is reverse to a normal PWM pulse, starting low (dict
 
 ### Hardware setup
 
-1) Connect the camera XVS line to RPi GPIO 18 (hardware PWM) via a voltage divider.
+1) Connect the camera XVS line to RPi GPIO 18 (hardware PWM) via a voltage divider (using 10k resistors).
 2) Connect a rotary encoder to 3.3v, GND, GPIO 21 (CLK) and GPIO 20 (DT)
 
 <img width="1296" alt="Skärmavbild 2023-12-18 kl  18 55 35" src="https://github.com/Tiramisioux/libcamera-imx477-speed-ramping/assets/74836180/d2e472f4-2ef3-4f98-a565-cc7857c15f80">
