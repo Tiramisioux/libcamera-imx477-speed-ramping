@@ -32,7 +32,7 @@ install pigpio-encoder
 
 clone example script
 
-```git https://www.github.com/tiramisioux/libcamera-imx477-speed-ramping-test```
+```git https://www.github.com/tiramisioux/libcamera-imx477-speed-ramping```
 
 start the pigpio daemon
 
