@@ -53,7 +53,7 @@ The rotary encoder should now modify frame rate.
 
 When run in trigger mode 2, the sensor sometimes show some unexpected behavior.. Looking into these issues. Please let me know if you have any ideas on these (or other) issues. 
 
-- In the example script, shutter angle is set to 180 degrees (duty cycle 50%). Theoretically, this could be adjusted so that shutter angle is synced with frame rate, resulting in a fixed exposure. However, in my experiments the exposure time still varies, even with thsi compensation.
+- In the example script, shutter angle is set to 180 degrees (duty cycle 50%). Theoretically, this could be adjusted so that shutter angle is synced with frame rate, resulting in a fixed exposure. However, in my experiments the exposure time still varies, even with this compensation.
 
 - Running the sensor in Trigger mode 2, and with frame capture being dictated by a PWM pulse, sometimes the image freezes, or the preview gets squeezed into a thin line on the display. I have also noticed the image becoming cropped, when adjusting shutter angle.
 
